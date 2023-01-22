@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap");
+:root {
+  --background-home: #03045e;
+  --button-background: #407bff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(45deg, var(--background-home), var(--button-background));
+  padding: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login-left {
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 4rem;
+}
+
+.login-right {
+  display: flex;
+  justify-content: center;
+}
+
+.login_image {
+  /* background-color: white; */
+  height: 100%;
+  width: 100%;
+  padding-left: 5rem;
+}
+
+.form_logo {
+  height: auto;
+  width: 300px;
+  padding-left: 100px;
+}
+
+.login-header {
+  margin-bottom: 20px;
+}
+.login-header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.login-header p {
+  opacity: 0.7;
+}
+
+.login-form {
+  width: 450px;
+}
+.login-form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.login-form-footer {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.login-form-footer a {
+  flex: 6;
+  gap: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 0.6rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+.login-form-footer a:hover {
+  background-color: #eee;
+}
+
+.form-item label:not(.checkboxLabel) {
+  display: inline-block;
+  background-color: white;
+  margin-bottom: 10px;
+  position: absolute;
+  padding: 0 10px;
+  transform: translate(30px, -10px);
+  font-size: 14px;
+}
+
+input[type=text],
+input[type=password] {
+  border: 1px solid black;
+  height: 55px;
+  padding: 0 2rem;
+  width: 100%;
+  outline: none;
+  transition: background 0.5s;
+  font-size: 18px;
+  border-radius: 100px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  accent-color: #03045e;
+}
+
+button {
+  border: none;
+  background-color: #407bff;
+  color: white;
+  font-size: 18px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.login_button {
+  border-radius: 100px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=login_page.css.map */
