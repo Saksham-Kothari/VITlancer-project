@@ -8,12 +8,15 @@
   box-sizing: border-box;
 }
 
+.login_home {
+  padding-inline: 2rem;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
   background: linear-gradient(45deg, var(--background-home), var(--button-background));
-  padding: 10px;
 }
 
 .container {
@@ -21,6 +24,12 @@ body {
   grid-template-columns: 50% 50%;
   border-radius: 10px;
   overflow: hidden;
+  font-family: "Inter", sans-serif;
+  padding: 1rem;
+}
+
+.nav-item {
+  font-size: 20px;
 }
 
 .login-left {

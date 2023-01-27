@@ -1,0 +1,28 @@
+.service_body {
+    /* padding-inline: 2rem; */
+}
+
+.service_head_card {
+    display: grid;
+    background-color: #03045E;
+    height: 80px;
+
+}
+
+.services_head_text {
+    color: #ffff;
+    display: flex;
+    font-size: 30px;
+}
+
+.service_card {
+    margin-top: 1rem;
+    margin-inline: 2rem;
+    height: 120px;
+    border-radius: 1rem;
+    background-color: #f0f0f0;
+}
+
+.nav-item {
+    color: #407bff;
+}
