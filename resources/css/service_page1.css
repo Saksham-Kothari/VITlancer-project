@@ -26,6 +26,7 @@
 .service_card_image {
     width: auto;
     height: 11rem;
+    /* ]'rem; */
     padding: 20px;
     border-radius: 2rem;
     display: flex;
