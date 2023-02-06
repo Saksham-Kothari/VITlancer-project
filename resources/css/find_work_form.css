@@ -1,0 +1,13 @@
+:root {
+    --background-home: #03045e;
+    --button-background: #407bff;
+    --grey-background: #f5f5f5;
+}
+
+.navbar {
+    color: var(--button-background);
+}
+
+.gig_container {
+    padding-inline: 2rem;
+}
