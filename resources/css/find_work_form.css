@@ -8,6 +8,25 @@
     color: var(--button-background);
 }
 
-.gig_container {
+/* .gig_container {
     padding-inline: 2rem;
+} */
+
+.gig_form_content {
+    padding-inline: 10rem;
+    padding-top: 2rem;
+}
+
+.gig_form {
+    padding-inline: 200px;
+    padding-top: 2rem;
+}
+
+.form-control {
+    border-radius: 2rem;
+}
+
+.form_container {
+    background-color: var(--grey-background);
+    border-radius: 2rem;
 }
