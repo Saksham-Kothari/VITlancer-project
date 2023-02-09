@@ -4,6 +4,7 @@
     --grey-background: #f5f5f5;
 }
 
+
 .navbar {
     color: var(--button-background);
 }
@@ -13,13 +14,17 @@
 } */
 
 .gig_form_content {
-    padding-inline: 10rem;
+    padding-inline: 5rem;
     padding-top: 2rem;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
 
 .gig_form {
-    padding-inline: 200px;
+    padding-inline: 50px;
     padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-control {
@@ -29,4 +34,20 @@
 .form_container {
     background-color: var(--grey-background);
     border-radius: 2rem;
+}
+
+#image_display {
+    width: 375px;
+    height: 211px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.thumbhail {
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
 }

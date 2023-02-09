@@ -18,7 +18,7 @@
 .service_card {
     margin-top: 1rem;
     margin-inline: 2rem;
-    height: 180px;
+    height: fill;
     border-radius: 1.5rem;
     background-color: #f0f0f0;
 }
@@ -39,4 +39,18 @@
 
 .nav-link:hover {
     color: black;
+}
+
+#image_display {
+    width: 375px;
+    height: 211px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.thumbhail {
+    padding: 1rem;
 }
