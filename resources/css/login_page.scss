@@ -38,11 +38,11 @@ body {
 }
 
 .nav-item {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .login-left {
-    // display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 100px;
@@ -50,6 +50,8 @@ body {
     border: 2px solid white;
     border-radius: 4rem;
 }
+
+
 
 .login-right {
     display: flex;
@@ -85,6 +87,7 @@ body {
 
 .login-form {
     width: 450px;
+
 
     &-content{
         display: flex;
