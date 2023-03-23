@@ -1,5 +1,5 @@
 node_module
-./pages/service_page1.html
-./pages/profile_page.html
-./pages/find_work_form_page.html
+../pages/service_page1.html
+../pages/profile_page.html
+../pages/find_work_form_page.html
 
